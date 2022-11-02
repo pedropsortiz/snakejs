@@ -98,8 +98,8 @@ window.onload = function(){
 
         if(appleY == pointY && appleX == pointX){
             tail++;
-            appleX = Math.floor(Math.random()*countSquare);
-            appleY = Math.floor(Math.random()*countSquare);
+            appleX = Math.floor(Math.random());
+            appleY = Math.floor(Math.random());
         }
 
     }
